@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Yonghoon Lee - talks</title>
-    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet">
+    <title> Yonghoon Lee - Teaching </title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&family=Lato&display=swap" rel="stylesheet">
     <style>
-           body {
+        body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -36,44 +37,40 @@
             transition: color 0.3s, transform 0.3s;
         }
         nav a:hover {
-            color: #80b3b8; 
-            transform: scale(1.05); 
+            color: #80b3b8;
+            transform: scale(1.05);
         }
         section {
             margin: 20px;
         }
         h2 {
-            color: #6699B3;
-	    font-family: 'Lato', sans-serif;
-	    font-size: 1.2em;
+            color: #00796b;
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
         }
         p {
 	    font-family: 'Roboto', sans-serif;
             line-height: 1.5;
             color: #555555;
-            font-size: 1em;
         }
-        h3 {
-            font-size: 1.3em;
-            color: #00796b;
+        .institution {
+	    font-family: 'Lato', sans-serif;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #6699B3;
         }
-        a {
-            color: #8C8C8C;
-            text-decoration: none;
-            transition: color 0.3s, text-decoration 0.3s;
+        .lato-font {
+            font-family: 'Lato', sans-serif;
         }
-        a:hover {
-            color: #004d40;
-            text-decoration: underline;
-        }
-        h1 {
-            font-size: 2em;
-            color: black;
-            margin: 20px 0;
-            padding-left: 20px;
-        }
-        html {
-            scroll-behavior: smooth;
+        .italic-font {
+            font-size: 1em; 
+            font-style: italic; 
         }
     </style>
 </head>
@@ -90,13 +87,20 @@
     </nav>
 
     <section>
-        <h2>Distribution-free inference for regression: discrete, continuous, and in between</h2>
-        <p>International Seminar on Selective Inference (2023) <a href="https://drive.google.com/file/d/1y6cTO0goCUkcFibpRV7nonooJMy2xxgl/view">[Record]</a></p>
-    </section>
 
-    <section>
-        <h2>Distribution-free inference with hierarchical data</h2>
-        <p>Joint Statistical Meeting 2024</p>
+        <p class="institution">The University of Chicago</p>
+        <h3 class="lato-font italic-font">As an Instructor</h3>
+        <ul>
+            <li>STAT 23400 Statistical Models and Method 1 (Spring 2021)</li>
+        </ul>
+        <h3 class="lato-font italic-font">As a Teaching Assistant</h3>
+        <ul>
+            <li>STAT 34300 Applied Linear Statistical Methods (Fall 2022)</li>
+            <li>STAT 30850 Multiple Testing, Modern Inference, and Replicability (Winter 2022, Winter 2020)</li>
+            <li>STAT 24500 Statistical Theory and Method 2 (Winter 2019, Winter 2021)</li>
+            <li>STAT 23400 Statistical Models and Methods 1 (Fall 2019, Fall 2018)</li>
+            <li>STAT 22000 Statistical Methods and Applications (Spring 2018, Winter 2018)</li>
+        </ul>
     </section>
 
 </body>
