@@ -59,10 +59,12 @@
         }
         h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.1em;
+    font-size: 14px;
     color: black;
     margin: 0;
     font-weight: 500; 
+
+
 }
         p {
 	    font-family: 'Roboto', sans-serif;
@@ -81,7 +83,27 @@
         html {
             scroll-behavior: smooth;
         }
+
+ul {
+    list-style-type: none;  /* 검은 점 제거 */
+    padding-left: 0;        /* 왼쪽 들여쓰기 제거 */
+    margin-left: 0;         /* 왼쪽 여백 제거 */
+}
+
+  li h3 {
+    margin-bottom: 4px;   /* 제목 아래 간격 줄이기 */
+    font-size: 16px;      /* 제목 크기도 조금 조정 가능 */
+  }
+
+  li p {
+    margin-top: 0;        /* 기본 위쪽 여백 제거 */
+    margin-bottom: 10px;  /* 필요시 아래 여백만 살짝 남김 */
+    font-size: 14px;      /* author 글씨 크기 줄이기 */
+    line-height: 1.3;     /* 줄 간격 줄이기 */
+  }
     </style>
+
+
 </head>
 <body>
 
@@ -99,6 +121,27 @@
     <section>
 
         <ul>
+
+<h2 class="year">2025</h2>
+         <li>
+                <h3> Conditional predictive inference with L^k-coverage control.</h3>
+                <p>
+                    <span class="author"> Yonghoon Lee and Zhimei Ren, 2025. </span>
+                    <a class="arxiv-link" href="https://arxiv.org/abs/2509.21691" target="_blank">[Arxiv]</a>
+                </p>
+            </li>
+
+
+
+         <li>
+                <h3> Statistical inference leveraging synthetic data with distribution-free guarantees.</h3>
+                <p>
+                    <span class="author"> Meshi Bashari<sup>*</sup>, Yonghoon Lee<sup>*</sup>, Roy Maor Lotan, Edgar Dobriban, Yaniv Romano, 2025. </span>
+                    <a class="arxiv-link" href="https://arxiv.org/abs/2509.20345" target="_blank">[Arxiv]</a>
+                </p>
+            </li>
+
+
 
            <li>
                 <h3>Inference on nonlinear counterfactual functionals for the treated under a multiplicative IV model.</h3>
@@ -128,7 +171,8 @@
     <h3>Synthetic-powered predictive inference.</h3>
     <p>
         <span class="author">
-            Meshi Bashari<sup>*</sup>, Roy Maor Lotan<sup>*</sup>, Yonghoon Lee<sup>*</sup>, Edgar Dobriban, Yaniv Romano, 2025.
+            Meshi Bashari<sup>*</sup>, Roy Maor Lotan<sup>*</sup>, Yonghoon Lee<sup>*</sup>, Edgar Dobriban, Yaniv Romano.</span>
+         <span class="journal"> Accepted at NeurIPS 2025.</span>
         </span>
         <a class="arxiv-link" href="https://arxiv.org/abs/2505.13432" target="_blank">[Arxiv]</a>
     </p>
@@ -142,6 +186,8 @@
                     <a class="arxiv-link" href="https://arxiv.org/abs/2501.02514" target="_blank">[Arxiv]</a>
                 </p>
             </li>
+
+<h2 class="year">2024</h2>
             <li>
                 <h3>Batch predictive inference.</h3>
                 <p>
@@ -156,13 +202,17 @@
                     <a class="arxiv-link" href="https://arxiv.org/abs/2403.04613" target="_blank">[Arxiv]</a>
                 </p>
             </li>
+<h2 class="year">2023</h2>
             <li>
                 <h3>Distribution-free inference with hierarchical data.</h3>
                 <p>
                     <span class="author">Yonghoon Lee, Rina Foygel Barber, and Rebecca Willett, 2023.</span>
+		    <span class="journal"> Accepted at ACM/IMS Journal of data science. </span>
                     <a class="arxiv-link" href="https://arxiv.org/abs/2306.06342" target="_blank">[Arxiv]</a>
                 </p>
             </li>
+
+<h2 class="year">2021</h2>
 
             <li>
                 <h3>Distribution-free inference for regression: discrete, continuous, and in between.</h3>
