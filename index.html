@@ -44,7 +44,7 @@
             transform: scale(1.05);
         }
         section {
-            margin: 20px;
+            margin: 20px 0;
         }
         h1 {
             font-size: 2.2em;
@@ -61,6 +61,33 @@
         html {
             scroll-behavior: smooth;
         }
+
+
+        .main-content {
+            display: flex;
+            gap: 40px;
+            margin-top: 30px;
+        }
+        .about {
+            flex: 1; 
+        }
+        .contact {
+            flex: 1; 
+            border-right: 2px solid #00363b;
+            padding-right: 20px;
+        }
+        .contact h2 {
+            margin-top: 0;
+            color: #0d3b66;
+        }
+.about p {
+    font-size: 1em;  
+    line-height: 1.6;
+}
+.contact p {
+    font-size: 1em;
+    line-height: 1.6;
+}
     </style>
 </head>
 <body>
@@ -75,8 +102,25 @@
         </div>
     </nav>
 
-    <div class="container">
-        <p>I am a postdoctoral researcher at the Department of Statistics at The University of Pennsylvania, advised by Professor Edgar Dobriban and Professor Eric J. Tchetgen Tchetgen. I am interested broadly in developing theories and methodologies for statistical inference, and my current research interests include distribution-free inference, multiple hypotheses testing, and causal inference. Previously, I was fortunate to be advised by Professor Rina Foygel Barber during my Ph.D. studies in statistics at The University of Chicago. Prior to UChicago, I received a Bachelor's degree in mathematics and statistics from Seoul National University.</p>
+    <div class="container main-content">
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>Email: yhoony31 at wharton dot upenn dot edu</p>
+            <p>Office: Academic research building, 265 South 37th Street, Philadelphia, PA</p>
+            <p>Google scholar: <a href="https://scholar.google.com/citations?user=NWEKcRMAAAAJ&hl=en">link</a></p>
+        </div>
+<div class="about">
+    <p>
+        I am a postdoctoral researcher at the Department of Statistics at The University of Pennsylvania, advised by Professor Edgar Dobriban and Professor Eric J. Tchetgen Tchetgen. 
+    </p>
+    <p>
+        I am interested broadly in developing theories and methodologies for statistical inference, and my current research interests include distribution-free inference, multiple hypotheses testing, and causal inference. 
+    </p>
+    <p>
+        Previously, I was fortunate to be advised by Professor Rina Foygel Barber during my Ph.D. studies in statistics at The University of Chicago. 
+        Prior to UChicago, I received a Bachelor's degree in mathematics and statistics from Seoul National University.
+    </p>
+</div>
     </div>
 
 </body>
